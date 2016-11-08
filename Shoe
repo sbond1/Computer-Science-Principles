@@ -1,0 +1,10 @@
+size(800,600);
+fill(0);
+noStroke();
+rect(200,200,450,170);
+arc(200,300,200,200,PI-QUARTER_PI,PI+HALF_PI);
+triangle(200,300,200,370,130,370);
+triangle(500,150,500,200,200,200);
+triangle(650,150,650,200,575,200);
+triangle(575,200,500,200,500,150);
+arc(650,260,55,220,PI+HALF_PI,TWO_PI+HALF_PI);
