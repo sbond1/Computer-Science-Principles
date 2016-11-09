@@ -1,0 +1,44 @@
+int y1 = 0;
+int x1 = 0;
+//int R = 0;
+//int G = 0;
+//int B = 0;
+//int R2 = 0;
+//int G2 = 0;
+//int B2 = 0;
+int d = 0;
+
+void setup()
+{
+  size(600,600);
+  background(#14E9F2);
+  
+}
+
+void draw()
+{
+  
+  y1 = (int)(Math.random()*600);
+  x1 = (int)(Math.random()*600);
+  //R = (int)(Math.random()*255);
+  //G = (int)(Math.random()*255);
+  //B = (int)(Math.random()*255);
+  //R2 = (int)(Math.random()*255);
+  //G2 = (int)(Math.random()*255);
+  //B2 = (int)(Math.random()*255);
+  d = (int)(Math.random()*100);
+  fill(255);
+  ellipse(x1,y1,d,d);
+  ellipse(x1+100,y1,d,d);
+  fill(#88C6DE);
+  ellipse(x1,y1,d/2,d/2);
+  ellipse(x1+100,y1,d/2,d/2);
+  fill(00000);
+  ellipse(x1,y1,d/4,d/4);
+  ellipse(x1+100,y1,d/4,d/4);
+  
+}
+
+
+
+
